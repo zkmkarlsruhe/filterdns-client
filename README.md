@@ -1,4 +1,15 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zkmkarlsruhe/zkm-open-source/main/assets/zkm-logo-light.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zkmkarlsruhe/zkm-open-source/main/assets/zkm-logo.svg">
+    <img alt="ZKM" src="https://raw.githubusercontent.com/zkmkarlsruhe/zkm-open-source/main/assets/zkm-logo.svg" width="120">
+  </picture>
+</p>
+
 # FilterDNS Client
+
+[![ZKM](https://img.shields.io/badge/ZKM-Karlsruhe-blue)](https://zkm.de)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A desktop client for FilterDNS that manages your system DNS settings to route queries through your FilterDNS server.
 
@@ -115,6 +126,16 @@ filterdns-client forwarder add ts.net 100.100.100.100
 filterdns-client forwarder add *.internal 192.168.1.1
 ```
 
+## Contributing
+
+Contributions welcome! Please open an issue or PR.
+
 ## License
 
-MIT
+MIT License - see [LICENSE](LICENSE) for details.
+
+---
+
+Part of [ZKM Open Source](https://github.com/zkmkarlsruhe)
+
+Copyright (c) 2026 [ZKM | Center for Art and Media Karlsruhe](https://zkm.de)
